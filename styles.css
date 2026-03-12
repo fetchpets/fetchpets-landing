@@ -6,6 +6,15 @@ body {
   line-height: 1.6;
 }
 
+.hero-illustration {
+  text-align: center;
+  margin: 40px auto 20px;
+}
+
+.hero-illustration img {
+  max-width: 600px;
+  width: 100%;
+}
 .hero {
   text-align: center;
   padding: 3rem 1rem;
