@@ -9,31 +9,37 @@
 </head>
 <body>
 
-<header class="hero">
-  <img src="/assets/hero.png" alt="FetchPets app illustration showing pet discovery and adoption journey" class="hero-image" />
-  <h1>FETCHPETS™</h1>
-  <p class="tagline">Helping pets find people — faster, safer, better.</p>
+<div class="hero">
 
-  <p class="intro">
-    FetchPets™ is a mobile application designed to help people discover adoptable pets from verified shelters and rescues.
-    Browse detailed pet profiles, explore compatibility insights, and start the adoption journey directly with shelters.
-  </p>
+  <div class="hero-text">
+    <h1>FETCHPETS™</h1>
 
-  <p class="coming-soon">🐾 Coming Soon to iOS & Android</p>
+    <p class="tagline">Helping pets find people — faster, safer, better.</p>
 
- <div class="waitlist-form">
-  <input
-    type="email"
-    id="waitlistEmail"
-    placeholder="Enter your email"
-    required
-  />
+    <p>
+      FetchPets™ is a mobile application designed to help people discover adoptable pets from verified shelters and rescues. Browse detailed pet profiles, explore compatibility insights, and start the adoption journey directly with shelters.
+    </p>
 
-  <button onclick="joinWaitlist()">Join the Early Access List</button>
+    <p>
+      FetchPets works directly with participating shelters and rescue organizations to help streamline the pet adoption process.
+    </p>
 
-  <p class="microcopy">
-    We’ll only email about launch and early access. Unsubscribe anytime.
-  </p>
+    <p class="coming-soon">🐾 Coming Soon to iOS &amp; Android</p>
+
+    <p class="early-access-text">Enter your email for early access:</p>
+
+    <form class="early-access-form">
+      <input type="email" placeholder="Enter your email" aria-label="Email address">
+      <button type="submit">Notify Me</button>
+    </form>
+  </div>
+
+  <div class="hero-image">
+    <h2>Preview the FetchPets App</h2>
+    <img src="assets/fetchpets-app-mockup.png" alt="FetchPets mobile app preview">
+    <p class="image-caption">Preview of the FetchPets mobile experience.</p>
+  </div>
+
 </div>
 
 <script>
