@@ -32,10 +32,22 @@
 
     <p class="early-access-text">Enter your email for early access:</p>
 
-    <form class="early-access-form">
-      <input type="email" placeholder="Enter your email" aria-label="Email address">
-      <button type="submit">Notify Me</button>
-    </form>
+<form class="early-access-form">
+  <input
+    id="waitlistEmail"
+    type="email"
+    placeholder="Enter your email"
+    aria-label="Email address"
+  >
+  <button type="button" onclick="joinWaitlist()">
+    Join the Early Access List
+  </button>
+</form>
+
+<p class="email-note">
+We’ll only email about launch and early access. Unsubscribe anytime.
+</p>
+    
   </div>
 
   <div class="hero-image">
