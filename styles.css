@@ -14,11 +14,6 @@ body {
    Hero Illustration (top banner)
 ================================ */
 
-.hero-illustration {
-  text-align: center;
-  margin: 40px auto 10px;
-}
-
 .hero-illustration img {
   max-width: 650px;
   width: 100%;
